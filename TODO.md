@@ -1,0 +1,9 @@
+- [x] Add image_url field to Category model
+- [x] Update populate_data.py to include image URLs for categories and products
+- [x] Update Django templates to display category images
+- [x] Update React components (Home.jsx, CategoryProducts.jsx) to display category images
+- [x] Modify CategoryProducts API to return both category and products data
+- [x] Handle database migrations (user will handle)
+- [x] Run populate_data script after migrations
+- [x] Add search and filters to CategoryProducts API and frontend
+- [x] Add reviews display and submission in ProductDetail frontend

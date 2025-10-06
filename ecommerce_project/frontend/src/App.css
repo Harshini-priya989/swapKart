@@ -1,0 +1,77 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  height: 4em;
+  padding: 1em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #3498dbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+}
+
+.read-the-docs {
+  color: #666;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #3498db, #2980b9);
+  border: none;
+  transition: all 0.3s ease;
+}
+.btn-primary:hover {
+  background: linear-gradient(45deg, #2980b9, #21618c);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.btn-success {
+  background: linear-gradient(45deg, #27ae60, #229954);
+  border: none;
+}
+.btn-success:hover {
+  background: linear-gradient(45deg, #229954, #1e8449);
+  transform: translateY(-2px);
+}
+
+.btn-danger {
+  background: linear-gradient(45deg, #e74c3c, #c0392b);
+  border: none;
+}
+.btn-danger:hover {
+  background: linear-gradient(45deg, #c0392b, #a93226);
+  transform: translateY(-2px);
+}
